@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Outer Gold Ring -->
+  <circle cx="100" cy="100" r="96" fill="#F4C430"/>
+  <!-- Main Blue Circle -->
+  <circle cx="100" cy="100" r="88" fill="#1A3A6C"/>
+  <!-- Inner White Ring -->
+  <circle cx="100" cy="100" r="78" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Top Text: HUSTISYANG -->
+  <path id="topArc" d="M 30,100 A 70,70 0 0 1 170,100" fill="none"/>
+  <text font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">HUSTISYANG</textPath>
+  </text>
+  
+  <!-- Bottom Text: PAMBARANGAY -->
+  <path id="bottomArc" d="M 170,100 A 70,70 0 0 1 30,100" fill="none"/>
+  <text font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">PAMBARANGAY</textPath>
+  </text>
+  
+  <!-- Sun Rays -->
+  <g fill="#F4C430">
+    <polygon points="100,45 103,60 97,60"/>
+    <polygon points="130,55 120,67 116,63"/>
+    <polygon points="145,85 130,90 130,84"/>
+    <polygon points="130,120 120,113 116,117"/>
+    <polygon points="100,135 97,120 103,120"/>
+    <polygon points="70,120 80,113 84,117"/>
+    <polygon points="55,85 70,84 70,90"/>
+    <polygon points="70,55 80,67 84,63"/>
+  </g>
+  
+  <!-- Barangay Hall Icon -->
+  <rect x="70" y="85" width="60" height="35" fill="#FFFFFF"/>
+  <polygon points="100,72 62,88 138,88" fill="#F4C430"/>
+  <rect x="92" y="100" width="16" height="20" fill="#1A3A6C"/>
+  <rect x="76" y="95" width="8" height="8" fill="#1A3A6C"/>
+  <rect x="116" y="95" width="8" height="8" fill="#1A3A6C"/>
+  
+  <!-- Star -->
+  <polygon points="100,148 102,153 108,153 103,157 105,163 100,159 95,163 97,157 92,153 98,153" fill="#F4C430"/>
+</svg>
